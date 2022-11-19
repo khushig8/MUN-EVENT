@@ -21,11 +21,11 @@ const teams = [
         designation: 'Director General',
         image: 'saloni.jpg',
       },
-      {
-        name: 'Rishit Mangal',
-        designation: 'OC President',
-        image: 'rishit.jpg',
-      },
+      // {
+      //   name: 'Rishit Mangal',
+      //   designation: 'OC President',
+      //   image: 'rishit.jpg',
+      // },
       {
         name: 'Jaipal Prajapat',
         designation: 'USG Outreach Head',
@@ -70,6 +70,11 @@ const teams = [
         name: 'Khushi Garg',
         designation: 'USG Technical',
         image: 'khushig.jpg',
+      },
+      {
+        name: 'Karan Sharma',
+        designation: 'USG Technical',
+        image: 'karans.jpg',
       },
       {
         name: 'Chintan Grover',
