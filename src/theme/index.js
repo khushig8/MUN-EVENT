@@ -5,19 +5,19 @@ import { createMuiTheme } from '@material-ui/core/styles'
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#2b5ec5',
-      second: '#030000',
+      main: '#BC923D',
+      second: '#f32f05',
     },
     secondary: {
-      main: '#010b2b',
+      main: '#f32f05',
     },
     error: {
       main: red.A400,
     },
     background: {
       default: '#fff',
-      pinkish: '#cfdeff',
-      lightPinkish: '#f2fbff',
+      pinkish: '#deb887c9',
+      lightPinkish: '#00000000',
     },
     glare: {
       main: 'rgba(0, 0, 0, 0.70)',

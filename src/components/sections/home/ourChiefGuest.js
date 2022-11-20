@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
     border: `5px solid ${theme.palette.primary.main}`,
   },
   layer: {
-    backgroundColor: 'rgba(0, 59, 150, 0.7)',
+    backgroundColor: ' #bc923d ',
     position: 'absolute',
     bottom: 0,
     borderRadius: '0px 0px 15px 15px',

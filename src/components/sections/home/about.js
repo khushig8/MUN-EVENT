@@ -10,8 +10,8 @@ import Fade from 'react-reveal/Fade'
 
 const useStyles = makeStyles(theme => ({
   bg: {
-    backgroundColor: '#2b5ec5',
-    background: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5))`,
+    backgroundColor: '#bc923d',
+    background: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8))`,
     minWidth: '300px',
     border: '2px solid #fff',
   },
@@ -25,9 +25,11 @@ const useStyles = makeStyles(theme => ({
   },
   content: {
     [theme.breakpoints.up('md')]: {
+      'color':"black",
       fontSize: '1rem',
     },
     [theme.breakpoints.up('lg')]: {
+      'color':"black",
       fontSize: '1.3rem',
     },
   },
