@@ -34,12 +34,12 @@ const CoronaWarning = () => {
   return (
     <Grid item sm={9} md={7} lg={8} className={classes.root}>
       
-      {/* <Typography variant='h3' className={classes.heading}>
-        14<sup>th </sup>- 15<sup>th</sup> May 2022
-      </Typography> */}
+      <Typography variant='h3' className={classes.heading}>
+        3<sup>rd </sup>- December
+      </Typography>
       <Typography variant='h4' className={classes.text}>
-        {/* SAVE THE DATES!! */}
-        Coming Soon
+      Register Now ! 
+        {/* Coming Soon */}
       </Typography>
     </Grid>
   )

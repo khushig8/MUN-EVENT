@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
   drawerPaper: {
     width: drawerWidth,
     height: 'auto',
-    backgroundColor: '#2b5ec5',
+    backgroundColor: '#bc923d',
     color: theme.palette.primary.main,
   },
   drawerHeader: {
@@ -68,17 +68,19 @@ function MobileViewDrawer(props) {
       link: '/#about',
       items: [
         { name: 'JECRC MUN', to: '/about' },
-        { name: 'OUR CHIEF GUEST', to: '/#chief-guest' },
+        // { name: 'OUR CHIEF GUEST', to: '/#chief-guest' },
         { name: 'OUR SPONSORS', to: '/sponsors' },
-        {
-          name: 'EXECUTIVE BOARD',
-          to: '/#executive-board',
-        },
+        { name: 'Zero Hour Summit', to: '/unic-collaboration' },
+        // { name: 'OUR CHIEF GUEST', to: '/#chief-guest' },
+        // {
+        //   name: 'EXECUTIVE BOARD',
+        //   to: '/#executive-board',
+        // },
       ],
     },
     { name: 'COMMITTEES', link: '/#committees' },
-    {name: 'REGISTRATIONS', link: '/registration'},
-    { name: 'RESOURCES', link: '/#resources' },
+    {name: 'REGISTRATIONS', link: 'https://docs.google.com/forms/d/e/1FAIpQLSdqSZnKyU5NEQlJZyGJELyEIc5JDOF93KpigiiS9lD-vGVE9Q/viewform'},
+    // { name: 'RESOURCES', link: '/#resources' },
     { name: 'GALLERY', link: '/gallery' },
     { name: 'TEAM', link: '/ot' },
     { name: 'CONTACT', link: '/contact' },

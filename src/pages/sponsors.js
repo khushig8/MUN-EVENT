@@ -21,7 +21,7 @@ import Grid from '@material-ui/core/Grid'
 
 const useStyles = makeStyles(theme => ({
   headingTextProperty: {
-    color: '#2b5ec5',
+    color: '#bc923d',
     fontWeight: 'bold',
     fontSize: 40,
     lineHeight: '50px',
@@ -46,7 +46,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.pinkish,
   },
   borderStyle: {
-    border: '5px solid #2b5ec5',
+    border: '5px solid #bc923d',
     width: 270,
     [theme.breakpoints.up('xl')]: {
       width: 400,
@@ -54,7 +54,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   textStyle: {
-    color: '#2b5ec5',
+    color: '#bc923d',
     fontWeight: 'bolder',
     textAlign: 'center',
   },
@@ -116,7 +116,7 @@ function SponsorsForm() {
       ) : (
         <Fade bottom>
           <ContentBox className='m-16'>
-            <Typography variant='h6' style={{ color: '#2b5ec5', }}>
+            <Typography variant='h6' style={{ color: '#bc923d',fontSize:"40px" }}>
               Become Our Sponsor
             </Typography>
             <form className={classes.form} onSubmit={handleSubmit}>

@@ -16,7 +16,7 @@ import classnames from 'classnames'
 
 const useStyles = makeStyles(theme => ({
   headingTextProperty: {
-    color: '#2b5ec5',
+    color: '#bc923d',
     fontWeight: 'bold',
     fontSize: 45,
     lineHeight: '71px',

@@ -7,7 +7,7 @@ import { makeStyles, useTheme } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
 import About from '../components/sections/home/about'
 import ChiefGuest from '../components/sections/home/ourChiefGuest'
-import Registrations from '../components/sections/home/registrations'
+// import Registrations from '../components/sections/home/registrations'
 import HomeBlogs from '../components/sections/home/blogs'
 import Committees from '../components/sections/home/committees'
 // import Countdown from '../components/countdown'
@@ -56,6 +56,16 @@ const useStyles = makeStyles(theme => ({
     lineHeight: '58px',
     [theme.breakpoints.up('md')]: {
       fontSize: 35,
+    },
+  },
+  registrationLink:{
+    color: '#bc923d',
+    fontFamily: "'Rubik' , sans-serif",
+    fontWeight: 'bold',
+    fontSize: '20px',
+    lineHeight: '90px',
+    [theme.breakpoints.up('md')]: {
+      fontSize: 50,
     },
   },
   FontInfo: {
@@ -144,15 +154,18 @@ export default () => {
         </div> */}
         <div className='my-5'>
           <Typography className={classes.munTextProperty}>
-            JECRC MUN 2022
+            JECRC MUN 2022 
           </Typography>
-          <Typography className={classes.diplomacyTextProperty}>
-            Presents Zero Hour Summit
+          <Typography style={{marginBottom:"30px"}} className={classes.diplomacyTextProperty}>
+            <a href="/unic-collaboration"> Presents Zero Hour Summit</a>
+          </Typography>
+          <Typography className={classes.registrationLink}>
+          Awaken The Leader In You
           </Typography>
         </div>
-        <div>
+        <a href="https://forms.gle/ZNB4RGyQSLb7yerf7" target="_blank"><div>
           <CoronaWarning />
-        </div>
+        </div></a>
         {/* <div className='my-5'>
           <Typography
             className={classnames('text-white', classes.FontInfo)}
@@ -204,7 +217,7 @@ export default () => {
           </div>
         </Banner>
       </div>
-      <div
+      {/* <div
         id='registrations'
         style={{
           minHeight: '100vh',
@@ -212,6 +225,18 @@ export default () => {
         }}
       >
         <Registrations />
+      </div> */}
+      <div
+        id='committees'
+        // id='executive-board'
+        className='pt-10'
+        style={{
+          minHeight: '40vh',
+          background: theme.palette.background.pinkish,
+        }}
+      >
+          <Committees />
+        {/* <ExecutiveBoard /> */}
       </div>
       <div className='flex flex-wrap justify-center h-auto' id='chief-guest'>
         <Banner
@@ -251,7 +276,7 @@ export default () => {
           </div>
         </Banner>
       </div> */}
-      <div
+      {/* <div
         id='committees'
         // id='executive-board'
         className='pt-10'
@@ -261,8 +286,8 @@ export default () => {
         }}
       >
           <Committees />
-        {/* <ExecutiveBoard /> */}
-      </div>
+        <ExecutiveBoard />
+      </div> */}
     </Wrapper>
   )
 }

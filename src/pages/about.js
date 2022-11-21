@@ -11,7 +11,7 @@ import { Paper } from '@material-ui/core'
 import Fade from 'react-reveal/Fade'
 const useStyles = makeStyles(theme => ({
   headingTextProperty: {
-    color: '#2b5ec5',
+    color: '#bc923d',
     fontWeight: 'bold',
     // fontFamily: "'Rubik' , sans-serif",
     fontSize: 50,

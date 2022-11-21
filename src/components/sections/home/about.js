@@ -151,7 +151,7 @@ export default () => {
           <Grid item md={4} xs={12}>
             <Fade bottom>
               <img
-                src='/images/unic.png'
+                src='/images/Grey-MUN-LOGO.png' style={{width:"80%"}}
                 className={classes.image}
                 alt='JECRC MUN'
               />
@@ -160,7 +160,8 @@ export default () => {
           <Grid item md={6} xs={12} className='p-5 text-center lg:text-left'>
             <Fade bottom cascade>
               <Typography variant='h4' className={classes.heading}>
-                COLLABORATION WITH UNIC
+                {/* COLLABORATION WITH UNIC */}
+                ZERO HOUR SUMMIT
               </Typography>
               <img
                 src='/images/line.png'
@@ -175,7 +176,7 @@ export default () => {
                   classes.content,
                 ])}
               >
-                JECRC MUN 2022 is now in collaboration with the United Nations
+                {/* JECRC MUN 2022 is now in collaboration with the United Nations
                 Information Centre (UNIC) for India and Bhutan. The United
                 Nations Information Centre for India and Bhutan is based in New
                 Delhi, India and is one of 63 United Nations Information Centres
@@ -184,7 +185,10 @@ export default () => {
                 communicating information from the United Nations to India and
                 Bhutan. It interprets the information in the regional languages
                 of India including Hindi, Tamil, and Telugu to create
-                communication easier and more convenient.
+                communication easier and more convenient. */}
+                The Zero Hour Summit aims to center the voices of our college youth in the conversation about national and international issues and environmental justice. We intend to develop a discussion platform for topics of public interest that requires urgent attention. 
+Zero Hour Summit is going to be an in-house debate competition that is bound to discuss 4 agendas. Agendas do not matter to a man without thought but torture the hearts of people who actively think about this world we live in. 
+With these debates, we aim to move our students towards constant growth and development in thinking, research, and speaking skills, and the ability to have a sound opinion about matters of interest.
               </Typography>
               <Button
                 type='submit'

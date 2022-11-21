@@ -16,7 +16,7 @@ import teams from '../data/teamDetails'
 
 const useStyles = makeStyles(theme => ({
   munTextProperty: {
-    color: '#2b5ec5',
+    color: '#BC923D',
     fontWeight: 'bold',
     fontSize: 60,
     lineHeight: '71px',
@@ -92,7 +92,7 @@ const useStyles = makeStyles(theme => ({
     bottom: 0,
     opacity: '1',
     clipPath: 'polygon(97% 100%, 3% 100%, 50% -180%)',
-    background: '#2b5ec5c4',
+    background: '#bc923d',
   },
   imageStyle: {
     width: '100%',
@@ -111,7 +111,7 @@ const useStyles = makeStyles(theme => ({
     transition: 'all 0.3s ease-out',
     textAlign: 'center',
     bottom: 0,
-    background: '#2b5ec5c4',
+    background: '#bc923da1',
     borderRadius: '10px',
   },
   socialIcons: {

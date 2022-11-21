@@ -13,7 +13,7 @@ import classnames from 'classnames'
 
 const useStyles = makeStyles(theme => ({
   headingTextProperty: {
-    color: '#2b5ec5',
+    color: '#bc923d',
     fontWeight: 'bold',
     fontSize: 42,
     lineHeight: '40px',
@@ -54,7 +54,7 @@ const useStyles = makeStyles(theme => ({
     display: 'block',
     maxWidth: '100%',
     maxHeight: '100%',
-    border: `1px solid #2b5ec5`,
+    border: `2px solid #BC923D`,
     borderRadius: `16px`,
     '&:hover': {
       cursor: 'pointer',

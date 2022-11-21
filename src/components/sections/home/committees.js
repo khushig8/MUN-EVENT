@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme => ({
       top: '25%',
     },
     [theme.breakpoints.down('lg')]: {
-      width: '350px',
+      width: '1050px',
       margin: '2%',
     },
     [theme.breakpoints.down('xs')]: {
@@ -77,7 +77,8 @@ function Committees() {
     <div className='text-center py-10 sm:py-5'>
       <Fade bottom cascade>
         <Typography variant='h4' className='pt-5 text-black'>
-          Committees
+          {/* Committees */}
+          Agendas
         </Typography>
         <img
           src='/images/line.png'
@@ -85,8 +86,60 @@ function Committees() {
           alt='---------------------'
         />
 
-<Typography variant='h5' className='pt-5 text-black'>
+        {/* <Typography variant='h5' className='pt-5 text-black'>
           To be announced soon....
+        </Typography> */}
+        <Typography variant='h5' className='pt-5 text-black'>
+          RESERVATION SYSTEM IN INDIA
+        </Typography>
+        <Typography style={{margin:"1vmax auto "}}
+          className={classnames([
+            'text-center  ',
+            classes.content,
+          ])}
+        >
+          JECRC MUN is a ten years old legacy established in 2012,
+          making JECRC the first host of a MUN conference in Jaipur.
+          Inaugurated by the eminent educationist Shri Kul Bhushan
+          Kothari, JECRC MUN has spiraled out exponentially to achieve the
+          pinnacle of growth. With the zealous efforts of extensive
+          organizing committees over the 10 years of conducting MUN
+          conferences, we have gained a lot of momentum inviting immense
+          participation from across the country.
+        </Typography>
+        <Typography variant='h5' className='pt-5 text-black'>
+        INTERNET PRIVACY RIGHTS
+        </Typography>
+        <Typography style={{margin:"1vmax auto "}}
+          className={classnames([
+            'text-center  ',
+            classes.content,
+          ])}
+        >
+          With the Internet now available in every nook and corner of the world, it raises a vital question for everyone- the privacy of data. Although sharing of data to websites and their parent companies makes it easier to get recommendations and gives it a more personalized look, leaks of personal information can cause both physical and mental anguish to the users. 
+This agenda is a take on both the positive and negative aspects of how the privatization of data to the users themselves would affect them for better or for worse.
+        </Typography>
+        <Typography variant='h5' className='pt-5 text-black'>
+        MILLENNIALS VS GEN Z
+        </Typography>
+        <Typography style={{margin:"1vmax auto "}}
+          className={classnames([
+            'text-center  ',
+            classes.content,
+          ])}
+        >
+          The tech-savvy, the hard worker, the smart worker, the multi-tasker, the innovator, the financially stable, the flexible, etc. Two generations separated from each other by the many aspects of life. Millennials (born between 1982 and 2000) and Gen Z (born between 2001 and 2019), have different opinions and places in their lives due to technology, education, self-identity, society, upbringing, communication, and emotions. 
+The agenda raises a series of queries and aspects to marvel on- which side are you on?
+        </Typography>
+        <Typography variant='h5' className='pt-5 text-black'>
+        A WORLD WITH AI        </Typography>
+        <Typography style={{margin:"1vmax auto ",marginBottom:"5vmax"}}
+          className={classnames([
+            'text-center  ',
+            classes.content,
+          ])}
+        >
+          Artificial intelligence is a new and up-and-coming technology capable of changing the world as we know it. It is the simulation of human intelligence processed by machines that can be the cause of mass destruction, a robot uprising, or the settlement of a new and improved civilization. This revolution in technology would impact us all, for good or bad. This agenda gives the participants an opportunity to debate on topics such as human error, new inventions, the high cost of creation, unemployment, technology improvement, human activity, and so on.
         </Typography>
       </Fade>
       {/* <Grid container justify='center'>

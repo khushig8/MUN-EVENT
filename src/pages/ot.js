@@ -109,7 +109,7 @@ const useStyles = makeStyles(theme => ({
     transition: 'all 0.3s ease-out',
     textAlign: 'center',
     bottom: 0,
-    background: '#bc923d',
+    background: '#bc923da1',
     borderRadius: '10px',
   },
   socialIcons: {

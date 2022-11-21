@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
       position: 'absolute',
       top: '100%',
       left: '0',
-      border: `2px solid #2b5ec5`,
+      border: `2px solid #bc923d`,
       height: 0,
       width: '100%',
       transform: `scaleX(0)`,
@@ -46,6 +46,7 @@ const dropdownList = {
     { name: 'JECRC MUN', link: '/about', type: 'gatsby' },
     // { name: 'OUR CHIEF GUEST', link: '/#chief-guest', type: 'gatsby' },
     { name: 'OUR SPONSORS', link: '/sponsors', type: 'gatsby' },
+    { name: 'Zero Hour Summit', link: '/unic-collaboration', type: 'gatsby' },
     // { name: 'EXECUTIVE BOARD', link: '/#executive-board', type: 'gatsby' },
   ],
   registrations: [
@@ -85,15 +86,15 @@ const useDropdownStyles = makeStyles(theme => ({
     paddingTop: 0,
     paddingBottom: 0,
     backgroundColor: '#fff', // will change this in future
-    color: '#2b5ec5',
-    border: `1px solid #2b5ec5`,
+    color: '#bc923d',
+    border: `1px solid #bc923d`,
   },
   downBarListItem: {
     '&:not(:last-of-type)': {
       borderBottom: `1px solid #2b5ec5`,
     },
     '&:hover': {
-      background: '#2b5ec5',
+      background: '#bc923d',
       color: '#fff',
     },
   },
@@ -174,7 +175,8 @@ function NavBarWeb(props) {
       >
         <Typography
           component={MaterialLink}
-          href='/#registrations'
+          href='https://forms.gle/ZNB4RGyQSLb7yerf7'
+          target="_blank"
           underline='none'
           variant='subtitle2'
           className={classes.headerItems}
@@ -197,7 +199,7 @@ function NavBarWeb(props) {
       </ListItem> */}
       <ListItem component={Link} to='/#committees' className={classes.navItem}>
         <Typography variant='subtitle2' className={classes.headerItems}>
-          Committees
+          Agenda
         </Typography>
       </ListItem>
       <ListItem component={Link} to='/gallery' className={classes.navItem}>
