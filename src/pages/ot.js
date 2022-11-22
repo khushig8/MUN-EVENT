@@ -90,7 +90,7 @@ const useStyles = makeStyles(theme => ({
     bottom: 0,
     opacity: '1',
     clipPath: 'polygon(97% 100%, 3% 100%, 50% -180%)',
-    background: '#bc923d',
+    background: '#bc923da6',
   },
   imageStyle: {
     width: '100%',
