@@ -154,7 +154,7 @@ export default () => {
         </div> */}
         <div className='my-5'>
           <Typography className={classes.munTextProperty}>
-            JECRC MUN 2022 
+            JECRC MUN
           </Typography>
           <Typography style={{marginBottom:"30px"}} className={classes.diplomacyTextProperty}>
             <a href="/unic-collaboration"> Presents Zero Hour Summit</a>
