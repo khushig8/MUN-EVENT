@@ -106,12 +106,12 @@ function Footer(props) {
                 7296877859
               </MateriaLink>
             </Typography>
-            {/* <Typography>Sarthak Agrawal</Typography>
+            <Typography>Shyam Garg</Typography>
             <Typography>
               <MateriaLink className={classes.phoneText} href='tel:8630072214'>
-                8630072214
+                7073168531
               </MateriaLink>
-            </Typography> */}
+            </Typography>
           </Grid>
           <Grid item md={2} sm={12} xs={12} />
         </Grid>
